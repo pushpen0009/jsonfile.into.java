@@ -5,6 +5,8 @@ public class Employee {
 	String name;
 	
 	String empId;
+	
+	int salary;
 
 	public String getName() {
 		return name;
@@ -22,9 +24,12 @@ public class Employee {
 		this.empId = empId;
 	}
 
-	@Override
-	public String toString() {
-		return "Employee [name=" + name + ", empId=" + empId + "]";
+	public int getSalary() {
+		return salary;
 	}
 
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	
 }

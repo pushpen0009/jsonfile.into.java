@@ -1,0 +1,11 @@
+{
+	"oldEmployee" : {
+		"value" : "100",
+		"operator" : ">="
+	},
+	
+	"goodSalary" : {
+		"value" : "10000",
+		"operator" : ">="
+	}
+}
